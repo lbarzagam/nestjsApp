@@ -14,8 +14,6 @@ export class CreateUserDto {
     @IsString()
     @IsNotEmpty()
     name:string
-
-    @IsNumber()
-    @Max(200)
+    
     age:number
 }
